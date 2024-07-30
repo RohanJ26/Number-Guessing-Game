@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project5</title>
+    <link rel="stylesheet" href="project5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="kidcontainer">
+            <div class="header">
+                <h1>Number Guessing Game</h1>
+                <p>Try and guess a random number between 1 and 100</p>
+                <p>You have 10 attempts to guess the right number</p>
+            </div>
+            <form class="form">
+                <h1>Guess a number</h1>
+                <input id="input" type="text" placeholder="Enter a number">
+                <button id="sub">Submit Guess</button>
+            </form>
+            <div class="final">
+                <p>Previous Guesses: <span id="guess"></span> </p>
+                <p>Guesses remaining: <span id="remain">10</span></p>
+                <p id="remark"></p>
+                <p id="end"></p>
+            </div>
+        </div>
+    </div>
+    <script src="project5.js"></script>
+</body>
+</html>
